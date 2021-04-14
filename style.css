@@ -1,0 +1,437 @@
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body{
+    background-color: #f7e0e0;
+    
+}
+/* {
+    box-sizing: border-box;*/
+
+ 
+
+  /* Container holding the image and the text */
+  .container {
+    position: relative;
+    text-align: center;
+    display: flexbox;
+  }
+ 
+  @media(max-width: 100%) {
+    .container {
+    display: inline-block;
+    text-align: center;
+    
+    }
+    
+  }
+
+  /* Top left text */
+  @media(max-width: 1000px) {
+    
+  }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: rgb(136, 67, 112);
+    font-family: 'Great Vibes', cursive;
+    font-size: 120px;
+    margin: 20px;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(136, 67, 112);
+    
+  }
+  .but{
+      position: absolute;
+      top: 350px;
+  }
+  
+ .mybutton{
+    
+	border-radius:35px;
+	
+	display:inline-block;
+    cursor:pointer;
+    background-color: none;
+	opacity: 0.6;
+	font-family:Arial;
+	font-size:17px;
+    padding:10px 50px;
+   
+	text-decoration:none;
+	
+ }
+ /* rounded images*/
+  .round1{
+      display: inline-block;
+      width: 300px;
+      height: 300px;
+      border: 2px solid rgb(243, 166, 243);
+      border-radius: 50%;
+      background-image: url('img/5.jpg');
+      background-position: center center;
+      background-size: cover;
+      transition: transform .5s;
+      background-repeat: no-repeat;
+    }
+  .round1:hover {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        border: 2px solid rgb(243, 166, 243);
+        border-radius: 50%;
+        background-image: url('img/kar.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: scale(1.5); 
+        
+    }
+   
+  .round2{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/14.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+}
+
+.round2:hover {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/kar.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.5); 
+
+}
+
+.round3{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/1.jpg');
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+}
+.round3:hover {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/kar.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.5); 
+
+}
+.round4{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/3.jpg');
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+}
+.round4:hover {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/kar.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.5); 
+
+}
+.round5{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/4.jpg');
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+}
+.round5:hover {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/kar.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.5); 
+
+}
+.round6{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/15.jpg');
+
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+}
+.round6:hover {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(243, 166, 243);
+    border-radius: 50%;
+    background-image: url('img/kar.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.5); 
+
+}
+.round1, .round2,
+.round3, .round4,
+.round5, .round6{
+    margin-left: 150px ;
+    margin-top: 50px;
+   
+}
+.price {
+    position:relative;
+    margin: 60px  100px 1000px 40px;
+    
+    z-index: 1;
+   
+}
+.price:before {
+   
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url(img/sakura1.jpeg) center center;
+        opacity: .2;
+    }
+
+.karina {
+    position: relative;
+    margin: 60px  100px 60px 40px;
+    z-index: 1;
+}
+
+.karina:before {
+   
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/flower2.jpeg) center center;
+    opacity: .2;
+}
+.galereia {
+    position: relative;
+    margin: 60px  100px 60px 40px;
+    z-index: 1;
+}
+.galereia:before {
+   
+    content: "tratata";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/flower7.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .2;
+}
+
+
+
+
+.doiposle1, .doiposle2, .doiposle3, .doiposle4, .doiposle5, 
+.doiposle6, .doiposle7, .doiposle8, .doiposle9, .doiposle10 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border: 2px solid rgb(243, 166, 243);
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+  transition: transform .5s;
+  background-repeat: no-repeat;
+}
+
+.doiposle1:hover, .doiposle2:hover, .doiposle3:hover, .doiposle4:hover, .doiposle5:hover, 
+.doiposle6:hover, .doiposle7:hover, .doiposle8:hover, .doiposle9:hover, .doiposle10:hover {
+  position: inherit;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(243, 166, 243);
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.5); 
+}
+
+.doiposle1 {
+    background-image: url('img/brovi2');
+  }
+.doiposle1:hover {
+    
+      background-image: url('img/brovi2');
+    
+  }
+.doiposle2{
+
+  background-image: url('img/brovi4');
+}
+.doiposle2:hover {
+  background-image: url('img/brovi4');
+}
+.doiposle3{ 
+  background-image: url('img/brovi6');  
+}
+.doiposle3:hover { 
+  background-image: url('img/brovi6');
+}
+.doiposle4{
+  background-image: url('img/brovi7');
+}
+.doiposle4:hover {
+  background-image: url('img/brovi7');
+}
+.doiposle5{
+  background-image: url('img/brovi8');
+}
+.doiposle5:hover {
+  background-image: url('img/brovi8');
+}
+.doiposle6{
+  background-image: url('img/brovi12');
+}
+.doiposle6:hover {
+  background-image: url('img/brovi12');
+}
+.doiposle7{  
+    background-image: url('img/brovi1');
+  }
+  .doiposle7:hover {
+    background-image: url('img/brovi1');
+  }
+  .doiposle8{ 
+    background-image: url('img/brovi9');
+  }
+  .doiposle8:hover { 
+    background-image: url('img/brovi9');
+  }
+  .doiposle9 {
+    background-image: url('img/brovi13');
+  }
+  .doiposle9:hover {
+    background-image: url('img/brovi13');
+  }
+  .doiposle10{
+    background-image: url('img/brovi11');
+  }
+  .doiposle10:hover {
+   background-image: url('img/brovi11');
+  }
+  .modal{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    border: 1px solid rgb(241, 135, 215);
+    
+    width: 88%;
+   
+    padding: 20px;
+   
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+   .tseni {
+     display: inline-block;
+     
+   }
+
+ .price_picture1, .price_picture2, .price_picture3, .price_picture4, .price_picture5,
+ .price_picture6, .price_picture7, .price_picture8, .price_picture9, .price_picture10,
+ .price_picture11, .price_picture12 {
+  
+   width: 20%;
+   height: 20%;
+   margin: 20px 20px 20px 20px;
+  
+   
+ }
+
+.price_picture1:active {
+  position: absolute;
+  width: 20%;
+  height: auto;
+}
+
+
+
+
+
+footer{
+  width: 100%;
+
+  height: 300px;
+  background-image: url(img/2.png);
+  
+}
+.contacti {
+padding: 10px 0 0 10px ;
+}

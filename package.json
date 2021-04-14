@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "node-sass": "^5.0.0",
+    "nodejs": "*"
+  },
+  "name": "kabinetkarinanet",
+  "version": "1.0.0",
+  "description": "karina site",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alina",
+  "license": "MIT"
+}

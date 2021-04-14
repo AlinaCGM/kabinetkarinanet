@@ -1,0 +1,179 @@
+.galereia {
+  
+    margin: 20px  100px 60px 10px;
+    z-index: 1;
+  }
+  
+  .galereia:before {
+   
+    content: "tratata";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/flower7.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .2;
+  }
+  
+  
+  
+  
+  .brovi, .face {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin-left: 2.6rem;
+  margin-bottom: 30px;
+  transition: transform .5s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+  
+  .brovi:hover, .face:hover {
+  position: fixed;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 50%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scale(1.5); 
+  } 
+  
+  /*1size*/
+  @media (min-width: 320px) {  
+    .brovi, .face {width: 100px;
+            height: 100px;
+            margin-right: 0px;
+            padding-left: 0 ;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+  @media (min-width: 320px) {  
+    .brovi:hover, .face:hover {width: 150px;
+            height: 150px;
+            margin-left: 2.5rem;
+            padding-left: 0 ;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+
+/* 2 size*/
+  @media (min-width: 425px) { 
+    .brovi, .face {width: 150px;
+            height: 150px;
+            margin-left: 5rem;
+
+      } /*1rem = 16px*/
+  }
+  @media (min-width: 425px) {  
+    .brovi:hover, .face:hover {width: 150px;
+            height: 150px;
+            margin-left: 5rem;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+
+  /*3size*/
+  @media (min-width: 768px) {  
+    .brovi, .face {width: 80px;
+      height: 80px;
+      margin-left: 2rem;
+    }     
+  }
+  @media (min-width: 768px) {  
+    .brovi:hover, .face:hover {width: 150px;
+            height: 150px;
+            margin-left: 2rem;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+
+  /*4size*/
+  @media (min-width: 1024px) {  
+    .brovi, .face {width: 90px;
+           height: 90px;}     
+  }
+  @media (min-width: 1024px) {  
+    .brovi:hover, .face:hover {width: 150px;
+            height: 150px;
+            margin-left: 2rem;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+
+  /*5size*/
+  @media (min-width: 1440px) {  
+    .brovi, .face {width: 100px;
+           height: 100px;
+           margin-left: 3rem;}     
+  }
+  @media (min-width: 1440px) {  
+    .brovi:hover, .face:hover {width: 150px;
+            height: 150px;
+            margin-left: 2rem;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+
+  /*6size*/
+  @media (min-width: 2560px) {  
+    .brovi, .face {width: 200px;
+           height: 200px;
+           margin-top: 10px;
+           margin-left: 3rem;}     
+  } 
+  @media (min-width: 2560px) {  
+    .brovi:hover, .face:hover {width: 300px;
+            height: 300px;
+            margin-left: 3rem;
+            background-position: center center;
+            background-size: cover;
+          } 
+  }
+
+
+  /* 7 size*/
+  .modal{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+   
+    padding: 20px;
+    top: 17rem;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+   
+  } 
+
+  @media (min-width:768px) {  
+    .modal {
+           margin-top: 18px;}     
+  } 
+
+
+
+
+
+  /*otzivi starts*/
+
+  .otzivi {
+    margin-top: 30rem;
+   
+  }
+      
+  
